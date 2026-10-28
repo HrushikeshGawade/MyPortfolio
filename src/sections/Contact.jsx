@@ -54,8 +54,8 @@ export default function Contact() {
 
         <div className="grid gap-10 md:grid-cols-2  w-full">
          
-          <div className="rounded-xl border-2  p-8">
-            <h3 className="text-2xl text-white font-bold">Contact Information</h3>
+          <div className="rounded-xl border-2 hover:border-blue-900  p-8">
+            <h3 className="text-2xl bg-gradient-to-l from-white to-indigo-600 bg-clip-text text-transparent font-bold">Contact Information</h3>
 
             <p className="mt-3 leading-7  text-muted-foreground">
               I'm open to entry-level software development

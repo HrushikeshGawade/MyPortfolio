@@ -51,14 +51,14 @@ export default function Achievements() {
           {achievements.map((item) => (
             <article
               key={item.title}
-              className="flex flex-col rounded-xl border-2 p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+              className="flex flex-col rounded-xl border-2 p-6 transition-all duration-300 hover:border-blue-900 hover:-translate-y-1 hover:shadow-lg"
             >
              <span className="mb-5 w-fit rounded-full bg-white text-black px-3 py-1 text-xs font-bold">
   {item.type}
 </span>
 
 
-              <h3 className="text-xl font-bold text-white leading-snug">
+              <h3 className="text-xl font-bold  leading-snug bg-gradient-to-l from-white to-indigo-600 bg-clip-text text-transparent">
                 {item.title}
               </h3>
 

@@ -58,7 +58,7 @@ export default function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="flex flex-col rounded-xl border-2 hover:cursor-pointer  p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+              className="flex flex-col rounded-xl border-2 hover:cursor-pointer hover:border-blue-900  p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
             >
               <div className="mb-4 ">
                 <span className="rounded-full   bg-white  px-3 py-1 text-xs font-medium text-black">
@@ -66,7 +66,7 @@ export default function Projects() {
                 </span>
               </div>
 
-              <h3 className="text-xl font-bold tracking-tight text-white">
+              <h3 className="text-xl font-bold tracking-tight  bg-gradient-to-l from-white to-indigo-600 bg-clip-text text-transparent">
                 {project.title}
               </h3>
 

@@ -49,9 +49,9 @@ export default function Education() {
           {education.map((item) => (
             <div
               key={item.degree}
-              className="rounded-xl border-2 p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-8"
+              className="rounded-xl border-2 p-6 transition-all duration-300 hover:border-blue-900 hover:-translate-y-1 hover:shadow-lg sm:p-8"
             >
-              <h3 className="text-xl text-white font-bold sm:text-2xl">
+              <h3 className="text-xl  font-bold sm:text-2xl bg-gradient-to-l from-white to-indigo-600 bg-clip-text text-transparent">
                 {item.degree}
               </h3>
 
