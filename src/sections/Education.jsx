@@ -17,7 +17,7 @@ export default function Education() {
     {
       degree: "BBA – Computer Applications (BBA-CA)",
       college: "Modern College of Arts, Science & Commerce, Pune",
-      duration: "Aug 2020 – Mar 2026",
+      duration: "Aug 2020 – Mar 2023",
       percentage: "79.53%",
       coursework: [
         "Computer Fundamentals",
